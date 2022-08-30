@@ -1,63 +1,42 @@
+body {
+  background-image: url(https://i.ibb.co/VBtf3Cn/nathan-dumlao-87r-24o-ABU-unsplash.jpg);
+  width: 100%;
+  height: 150vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Small devices */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices*/
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices */
+@media only screen and (min-width: 992px) {
+}
+
 section {
   background: url(https://i.ibb.co/S3F5xhv/Untitled-Artwork-7.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100%;
-  height: 100vh;
-}
-
-/* Small devices */
-@media only screen and (min-width: 600px) {
-  .textbox {
-    width: 70%;
-    height: 40vh;
-    background-color: black;
-    position: relative;
-    right: 100px;
-    top: 100px;
-    border: double 5px white;
-  }
-}
-
-/* Medium devices*/
-@media only screen and (min-width: 768px) {
-  section {
-    height: 170vh;
-  }
-
-  .tv-img {
-    width: 850px;
-    position: relative;
-    left: auto;
-  }
-
-  .light-bulb {
-    width: 100px;
-  }
-  .textbox {
-    position: relative;
-  }
-}
-
-/* Large devices */
-@media only screen and (min-width: 992px) {
-  section {
-    height: 160vh;
-  }
+  width: 400px;
+  margin: 20px;
+  padding: 10px;
 }
 
 .light-bulb {
-  width: 70px;
+  width: 80px;
+  margin-bottom: 65px;
 }
 
-.tv-img {
+.ansText {
   position: relative;
-  top: 80px;
-}
-
-.textbox {
-  background-color: black;
-
-  border: double 5px white;
+  bottom: 208px;
+  right: 31px;
+  border: none;
+  text-align: left;
 }

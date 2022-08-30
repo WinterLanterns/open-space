@@ -22,20 +22,45 @@
       crossorigin="anonymous"
     />
   </head>
-  <body style="background-color: black">
-    <section class="container w-100">
-      <div class="row">
-        <div class="col-12 d-flex justify-content-center">
-          <img
-            class="img-fluid light-bulb"
-            src="./img/lightbulbwhite.gif"
-            id="light-mode"
-            alt=""
-          />
-        </div>
-
-        <div class="col-12 d-flex justify-content-center">
-          <img class="img-fluid tv-img" src="./img/tvwhite.gif" alt="" />
+  <body class="d-flex justify-content-center">
+    <section class="m-auto text-center">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 d-flex justify-content-center align-items-center">
+            <img
+              class="img-fluid light-bulb d-block"
+              src="./img/lightbulbwhite.gif"
+              id="light-mode"
+              alt=""
+            />
+          </div>
+          <div class="col-12">
+            <textarea
+              class="d-block mx-auto"
+              name=""
+              id="questText"
+              cols="30"
+              rows="4"
+            ></textarea>
+            <br />
+            <button class="btn btn-outline-dark">Enter!</button>
+          </div>
+          <div id="tvball" class="col-12 d-grid justify-content-center">
+            <br />
+            <img class="img-fluid tv-img" src="./img/tvwhite.gif" alt="" />
+            <div id="answer" class="m-0">
+              <textarea
+                class="ansText bg-transparent"
+                name=""
+                id=""
+                cols="23"
+                rows="7"
+              >
+Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad ipsum facere rem. Distinctio laborum earum in, voluptatem temporibus voluptatibus consequuntur nostrum corporis laboriosam quis ea saepe laudantium doloribus quos tenetur!
+             </textarea
+              >
+            </div>
+          </div>
         </div>
       </div>
     </section>

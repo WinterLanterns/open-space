@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Bootstrap demo</title>
+    <title>Open Space</title>
     <!-- CSS link  -->
     <link rel="stylesheet" href="./css/style.css" />
     <!-- Bootstrap -->
@@ -14,6 +14,14 @@
       crossorigin="anonymous"
     />
 
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap"
+      rel="stylesheet"
+    />
+
     <!-- awesome fonts -->
     <link
       rel="stylesheet"
@@ -22,7 +30,7 @@
       crossorigin="anonymous"
     />
   </head>
-  <body class="d-flex justify-content-center">
+  <body class="d-flex justify-content-center" style="background-color: #0d1213">
     <section class="m-auto text-center">
       <div class="container-fluid">
         <div class="row">
@@ -35,30 +43,29 @@
             />
           </div>
           <div class="col-12">
+            <h1 class="questHeading text-center">Ask a Question</h1>
             <textarea
-              class="d-block mx-auto"
+              class="mx-auto questText"
               name=""
               id="questText"
               cols="30"
               rows="4"
             ></textarea>
             <br />
-            <button class="btn btn-outline-dark">Enter!</button>
+            <button
+              class="btn btn-outline-dark"
+              style="font-family: 'Pangolin', cursive"
+            >
+              Enter!
+            </button>
           </div>
           <div id="tvball" class="col-12 d-grid justify-content-center">
             <br />
             <img class="img-fluid tv-img" src="./img/tvwhite.gif" alt="" />
             <div id="answer" class="m-0">
-              <textarea
-                class="ansText bg-transparent"
-                name=""
-                id=""
-                cols="23"
-                rows="7"
-              >
-Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad ipsum facere rem. Distinctio laborum earum in, voluptatem temporibus voluptatibus consequuntur nostrum corporis laboriosam quis ea saepe laudantium doloribus quos tenetur!
-             </textarea
-              >
+              <p class="ansText">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
             </div>
           </div>
         </div>

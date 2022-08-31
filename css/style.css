@@ -20,10 +20,12 @@ body {
 }
 section {
   background: url(https://i.ibb.co/S3F5xhv/Untitled-Artwork-7.png);
+  border: 3px double black;
 }
 .dark-mode {
   background: url(https://i.ibb.co/n6cnRjb/Untitled-Artwork-8.png);
   color: white;
+  border: 3px double white;
 }
 
 section,
@@ -32,13 +34,10 @@ section,
   background-repeat: no-repeat;
   background-size: cover;
   width: 400px;
-  height: 900px;
+  height: 780px;
   margin: 20px;
   padding: 10px;
-}
-
-section.dark {
-  background: url(https://i.ibb.co/n6cnRjb/Untitled-Artwork-8.png);
+  margin-top: auto;
 }
 
 .noHover {
@@ -48,9 +47,15 @@ button:active {
   outline: none;
   border: none;
 }
+
 .light-bulb {
+  content: url(https://i.ibb.co/gZGJY4N/lightbulbwhite.gif);
   width: 80px;
-  margin-bottom: 65px;
+}
+
+.bulb-off {
+  content: url(https://i.ibb.co/x2DYWB7/lightbulbblack.gif);
+  width: 80px;
 }
 
 .questText {
@@ -67,4 +72,11 @@ button:active {
 .questHeading,
 .questText {
   font-family: "Pangolin", cursive;
+}
+
+.tv-img {
+  content: url("https://i.ibb.co/wQrdwTM/tvwhite.gif");
+}
+.tv-black {
+  content: url("https://i.ibb.co/2vDYPnn/tvblack.gif");
 }

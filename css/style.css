@@ -18,9 +18,16 @@ body {
 /* Large devices */
 @media only screen and (min-width: 992px) {
 }
-
 section {
   background: url(https://i.ibb.co/S3F5xhv/Untitled-Artwork-7.png);
+}
+.dark-mode {
+  background: url(https://i.ibb.co/n6cnRjb/Untitled-Artwork-8.png);
+  color: white;
+}
+
+section,
+.dark-mode {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -30,6 +37,17 @@ section {
   padding: 10px;
 }
 
+section.dark {
+  background: url(https://i.ibb.co/n6cnRjb/Untitled-Artwork-8.png);
+}
+
+.noHover {
+  border: none;
+}
+button:active {
+  outline: none;
+  border: none;
+}
 .light-bulb {
   width: 80px;
   margin-bottom: 65px;
@@ -41,7 +59,7 @@ section {
 
 .ansText {
   position: relative;
-  bottom: 208px;
+  bottom: 180px;
   left: 32px;
   padding-right: 133px;
 }

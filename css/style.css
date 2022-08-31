@@ -68,6 +68,7 @@ textarea,
   top: 308px;
   right: 600px;
   text-transform: uppercase;
+  z-index: 2;
 }
 
 textarea:hover,

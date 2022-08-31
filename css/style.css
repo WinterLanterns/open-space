@@ -75,9 +75,9 @@ button:active {
 }
 
 .tv-img {
-  content: url("https://i.ibb.co/wQrdwTM/tvwhite.gif");
+  content: url("https://i.ibb.co/M12XV4V/tv-wmode.gif");
   transition: 0.2s linear;
 }
 .tv-black {
-  content: url("https://i.ibb.co/2vDYPnn/tvblack.gif");
+  content: url("https://i.ibb.co/x2ry98d/tv-bmode.gif");
 }

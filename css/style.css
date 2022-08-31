@@ -21,6 +21,7 @@ body {
 section {
   background: url(https://i.ibb.co/S3F5xhv/Untitled-Artwork-7.png);
   border: 3px double black;
+  transition: background 0.2s linear;
 }
 .dark-mode {
   background: url(https://i.ibb.co/n6cnRjb/Untitled-Artwork-8.png);
@@ -49,6 +50,7 @@ button:active {
 .light-bulb {
   content: url(https://i.ibb.co/gZGJY4N/lightbulbwhite.gif);
   width: 80px;
+  transition: 0.2s linear;
 }
 
 .bulb-off {
@@ -74,6 +76,7 @@ button:active {
 
 .tv-img {
   content: url("https://i.ibb.co/wQrdwTM/tvwhite.gif");
+  transition: 0.2s linear;
 }
 .tv-black {
   content: url("https://i.ibb.co/2vDYPnn/tvblack.gif");

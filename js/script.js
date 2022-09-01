@@ -66,6 +66,13 @@ button.addEventListener("click", function () {
   } else {
     answerResult = "It is certain";
   }
+  function answers() {
+    answer.innerHTML = answerResult;
+  }
+  // let eyeBall = document.querySelector(".enterButton");
+  // enterB.classList.toggle("enterDbutton");
 
-  answer.innerHTML = answerResult;
+  setTimeout(function () {
+    answers();
+  }, 3000);
 });

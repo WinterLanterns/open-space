@@ -62,11 +62,13 @@
                   name=""
                   id="questText"
                   cols="24"
-                  rows="5"
+                  rows="4.5"
                 ></textarea>
               </div>
               <br />
               <button
+                onclick="typeWriter()"
+                id="enterB"
                 type="button"
                 class="enterButton"
                 style="font-family: 'Pangolin', cursive"
@@ -77,9 +79,7 @@
             <div id="tvball" class="col-12 d-grid justify-content-center">
               <img class="img-fluid tv-img" src="./img/tvwhite.gif" alt="" />
               <div id="answer" class="m-0">
-                <p class="ansText font-monospace">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                </p>
+                <p class="ansText font-monospace" id="ansText"></p>
               </div>
             </div>
           </div>

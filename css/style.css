@@ -46,10 +46,10 @@ section,
 .noHover {
   border: none;
 }
-/* button:active {
+button:active {
   outline: none;
   border: none;
-} */
+}
 
 .tape {
   content: url(https://i.ibb.co/Yj2nLgZ/tape.gif);

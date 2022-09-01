@@ -1,5 +1,6 @@
 * {
   font-family: "Pangolin", cursive;
+  transition: 0.2s linear;
 }
 
 body {
@@ -8,7 +9,6 @@ body {
   height: auto;
   background-size: cover;
   background-repeat: no-repeat;
-  letter-spacing: 2px;
 }
 
 /* Small devices */
@@ -22,6 +22,11 @@ body {
 /* Large devices */
 @media only screen and (min-width: 992px) {
 }
+h1 {
+  position: relative;
+  top: 37px;
+}
+
 section {
   background: url(https://i.ibb.co/S3F5xhv/Untitled-Artwork-7.png);
   border: 3px double black;
@@ -69,10 +74,11 @@ textarea,
   border: none;
   position: absolute;
   background: transparent;
-  top: 310px;
+  top: 380px;
   text-transform: uppercase;
   z-index: 2;
   resize: none;
+  outline: none;
 }
 
 textarea:hover,
@@ -104,22 +110,57 @@ textarea:active,
 }
 
 .enterButton {
-  border: black 1px solid;
-  color: black;
+  box-shadow: inset 0px 1px 0px 0px #000000;
+  background: linear-gradient(to bottom, #000000 5%, #303030 100%);
+  background-color: #000000;
+  border-radius: 6px;
+  border: 1px solid #d1d1d1;
+  display: inline-block;
+  cursor: pointer;
+  color: #e0e0e0;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 10px 21px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #c7c7c7;
+}
+.myButton:hover {
+  background: linear-gradient(to bottom, #303030 5%, #000000 100%);
+  background-color: #303030;
 }
 
 .enterDbutton {
-  border: white 1px solid;
-  color: white;
+  box-shadow: inset 0px 1px 0px 0px #ffffff;
+  background: linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+  background-color: #ffffff;
+  border-radius: 6px;
+  border: 1px solid #dcdcdc;
+  display: inline-block;
+  cursor: pointer;
+  color: #666666;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 10px 21px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #ffffff;
+}
+.enterDbutton:hover {
+  background: linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+  background-color: #f6f6f6;
 }
 
 .enterButton,
 .enterDbutton {
-  padding: 5px 18px;
-  margin-top: 5px;
-  margin-bottom: 15px;
-  border-radius: 7%;
-  background: transparent;
+  position: relative;
+  bottom: 30px;
+}
+
+.enterButton:active,
+.enterDbutton:active {
+  position: relative;
+  bottom: 27px;
 }
 
 .ansText {
@@ -136,8 +177,13 @@ textarea:active,
 
 .tv-img {
   content: url("https://i.ibb.co/M12XV4V/tv-wmode.gif");
-  transition: 0.2s linear;
 }
 .tv-black {
   content: url("https://i.ibb.co/x2ry98d/tv-bmode.gif");
+}
+
+.tv-img,
+.tv-black {
+  position: relative;
+  bottom: 25px;
 }

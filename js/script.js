@@ -25,6 +25,8 @@ button.addEventListener("click", function () {
   let randomNum = randomAnswers(19);
   let answerResult = "";
 
+  // random answers
+
   if (randomNum == 0) {
     answerResult = "My reply is NO!";
   } else if (randomNum == 1) {
@@ -72,7 +74,21 @@ button.addEventListener("click", function () {
   // let eyeBall = document.querySelector(".enterButton");
   // enterB.classList.toggle("enterDbutton");
 
+  // timed answer
+
   setTimeout(function () {
     answers();
   }, 3000);
 });
+
+// typewriter
+
+var i = 0;
+let text = ["Yes or No Questions!"];
+let speed = 150;
+
+typeWriter = () => {
+  document.querySelector(".questHeading").innerHTML = text[0].substring(0, i);
+  if (i++ != text[0].length) setTimeout(typeWriter, speed);
+};
+window.addEventListener("load", typeWriter);

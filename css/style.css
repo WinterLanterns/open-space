@@ -24,7 +24,7 @@ body {
 }
 h1 {
   position: relative;
-  top: 37px;
+  top: 20px;
 }
 
 section {
@@ -74,7 +74,7 @@ textarea,
   border: none;
   position: absolute;
   background: transparent;
-  top: 380px;
+  top: 330px;
   text-transform: uppercase;
   z-index: 2;
   resize: none;
@@ -173,6 +173,15 @@ textarea:active,
 .questHeading,
 .questText {
   font-family: "Pangolin", cursive;
+}
+
+.mouth {
+  content: url("https://i.ibb.co/MSzQKdQ/mouth.gif");
+  /* border: white 1px solid; */
+  position: relative;
+  left: 65px;
+  top: 75px;
+  z-index: 6;
 }
 
 .tv-img {

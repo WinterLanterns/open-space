@@ -175,15 +175,6 @@ textarea:active,
   font-family: "Pangolin", cursive;
 }
 
-.mouth {
-  content: url("https://i.ibb.co/MSzQKdQ/mouth.gif");
-  /* border: white 1px solid; */
-  position: relative;
-  left: 65px;
-  top: 75px;
-  z-index: 6;
-}
-
 .tv-img {
   content: url("https://i.ibb.co/M12XV4V/tv-wmode.gif");
 }

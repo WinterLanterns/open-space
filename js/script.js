@@ -78,7 +78,7 @@ button.addEventListener("click", function () {
 
   setTimeout(function () {
     answers();
-  }, 3000);
+  }, 1000);
 });
 
 // typewriter

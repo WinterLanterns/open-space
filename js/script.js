@@ -12,17 +12,8 @@ window.addEventListener("DOMContentLoaded", () => {
     });
 
     setTimeout(() => {
-      logoImg.forEach((img, idx) => {
-        setTimeout(() => {
-          img.classList.remove("active");
-          img.classList.add("fade");
-        }, (idx + 2) * 50);
-      });
-    }, 2000);
-
-    setTimeout(() => {
       logoHeader.style.top = "-100vh";
-    }, 1998);
+    }, 3000);
   });
 });
 

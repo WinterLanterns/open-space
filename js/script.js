@@ -8,7 +8,7 @@ window.addEventListener("DOMContentLoaded", () => {
     logoImg.forEach((img, idx) => {
       setTimeout(() => {
         img.classList.add("active");
-      }, (idx + 1) * 400);
+      }, (idx + 2) * 400);
     });
 
     setTimeout(() => {
@@ -16,13 +16,13 @@ window.addEventListener("DOMContentLoaded", () => {
         setTimeout(() => {
           img.classList.remove("active");
           img.classList.add("fade");
-        }, (idx + 1) * 50);
+        }, (idx + 2) * 50);
       });
     }, 2000);
 
     setTimeout(() => {
       logoHeader.style.top = "-100vh";
-    }, 2000);
+    }, 1998);
   });
 });
 

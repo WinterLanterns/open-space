@@ -1,27 +1,41 @@
 // dark mode
+// function darkM is linked to the button on the lightbulb picture
 function darkM() {
+  //this selects the section and switches it to dark-mode class css code.
   let darkMode = document.querySelector("section");
   darkMode.classList.toggle("dark-mode");
+  // selects the lightbulb light picture and switches it to the dark picture.
   let lightOn = document.querySelector(".light-bulb");
   lightOn.classList.toggle("bulb-off");
+  // selects tv light and switches to tv dark
   let tvImg = document.querySelector(".tv-img");
   tvImg.classList.toggle("tv-black");
+  //selects textarea and switches to class questbTest
   let questText = document.querySelector("textarea");
   questText.classList.toggle("questbText");
+  // selects light tape into dark tape
   let questImg = document.querySelector(".tape");
   questImg.classList.toggle("tapeDark");
+  // selects light button into dark button
   let enterB = document.querySelector(".enterButton");
   enterB.classList.toggle("enterDbutton");
+
+  clickSound = new Audio("media/clickswitch.mp3");
+  clickSound.play();
 }
 
 // Question & Answers
 function randomAnswers(max_number) {
+  // rounds number and randomizes number * max_number
   return Math.round(Math.random() * max_number);
 }
+
+// button = enter button and answer = Answer
 let button = document.querySelector(".enterButton");
 let answer = document.querySelector(".ansText");
 
 button.addEventListener("click", function () {
+  //random of 20 number answers
   let randomNum = randomAnswers(19);
   let answerResult = "";
 
@@ -68,11 +82,10 @@ button.addEventListener("click", function () {
   } else {
     answerResult = "It is certain";
   }
+  //function so I can set a timer
   function answers() {
     answer.innerHTML = answerResult;
   }
-  // let eyeBall = document.querySelector(".enterButton");
-  // enterB.classList.toggle("enterDbutton");
 
   // timed answer
 
@@ -81,12 +94,17 @@ button.addEventListener("click", function () {
   }, 1000);
 });
 
+function sound() {
+  meow = new Audio("media/shortmeow.mp3");
+  meow.play();
+}
+
 // typewriter
 
 var i = 0;
 let text = ["Yes or No Questions!"];
 let speed = 150;
-
+// Looks at the h1 class and then starts text location [0] and adds a letter if its not != text[0] length. Sets a timer for the text
 typeWriter = () => {
   document.querySelector(".questHeading").innerHTML = text[0].substring(0, i);
   if (i++ != text[0].length) setTimeout(typeWriter, speed);

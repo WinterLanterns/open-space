@@ -41,18 +41,6 @@ header {
   display: inline-block;
 }
 
-.eyeball.active {
-  bottom: 0;
-  opacity: 1;
-  transition: 0.2s linear;
-}
-
-.eyeball.fade {
-  bottom: 150px;
-  opacity: 0;
-  transition: 0.2s linear;
-}
-
 h1 {
   position: relative;
   top: 20px;

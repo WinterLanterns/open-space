@@ -1,14 +1,11 @@
 // header
 let logoHeader = document.querySelector("header");
-let logo = document.querySelector(".logo");
-let logoImg = document.querySelectorAll(".eyeball");
-
+//domcontentloader does not wait for stylesheet to load
 window.addEventListener("DOMContentLoaded", () => {
   setTimeout(() => {
-    setTimeout(() => {
-      logoHeader.style.top = "-100vh";
-    }, 3000);
-  });
+    //moves the header up 100vh and stays for 3 secs
+    logoHeader.style.top = "-100vh";
+  }, 3000);
 });
 
 // dark mode
@@ -32,7 +29,7 @@ function darkM() {
   // selects light button into dark button
   let enterB = document.querySelector(".enterButton");
   enterB.classList.toggle("enterDbutton");
-
+  // on click it makes the light bulb click sound
   clickSound = new Audio("media/clickswitch.mp3");
   clickSound.play();
 }

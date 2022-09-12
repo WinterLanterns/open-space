@@ -5,12 +5,6 @@ let logoImg = document.querySelectorAll(".eyeball");
 
 window.addEventListener("DOMContentLoaded", () => {
   setTimeout(() => {
-    logoImg.forEach((img, idx) => {
-      setTimeout(() => {
-        img.classList.add("active");
-      }, (idx + 2) * 400);
-    });
-
     setTimeout(() => {
       logoHeader.style.top = "-100vh";
     }, 3000);

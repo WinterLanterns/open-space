@@ -1,3 +1,31 @@
+// header
+let logoHeader = document.querySelector("header");
+let logo = document.querySelector(".logo");
+let logoImg = document.querySelectorAll(".eyeball");
+
+window.addEventListener("DOMContentLoaded", () => {
+  setTimeout(() => {
+    logoImg.forEach((img, idx) => {
+      setTimeout(() => {
+        img.classList.add("active");
+      }, (idx + 1) * 400);
+    });
+
+    setTimeout(() => {
+      logoImg.forEach((img, idx) => {
+        setTimeout(() => {
+          img.classList.remove("active");
+          img.classList.add("fade");
+        }, (idx + 1) * 50);
+      });
+    }, 2000);
+
+    setTimeout(() => {
+      logoHeader.style.top = "-100vh";
+    }, 2000);
+  });
+});
+
 // dark mode
 // function darkM is linked to the button on the lightbulb picture
 function darkM() {

@@ -210,27 +210,6 @@ textarea:active,
   position: relative;
 }
 
-/* .eye-ball1,
-.eye-ball2 {
-  width: 22px;
-  height: 22px;
-  border: 1px solid black;
-  background-color: #000000;
-  z-index: 6;
-  margin-left: 34px;
-  position: relative;
-  right: 13px;
-  top: 66px;
-} */
-
-/* .eye1,
-.eye2,
-.eye-ball1,
-.eye-ball2 {
-  border-radius: 100%;
-  display: inline-block;
-} */
-
 .tv-img {
   content: url("https://i.ibb.co/M12XV4V/tv-wmode.gif");
 }

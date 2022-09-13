@@ -31,6 +31,7 @@ function darkM() {
   enterB.classList.toggle("enterDbutton");
   // on click it makes the light bulb click sound
   clickSound = new Audio("media/clickswitch.mp3");
+  clickSound.volume = 0.1;
   clickSound.play();
 }
 
@@ -106,6 +107,7 @@ button.addEventListener("click", function () {
 
 function sound() {
   meow = new Audio("media/shortmeow.mp3");
+  meow.volume = 0.1;
   meow.play();
 }
 

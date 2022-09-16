@@ -53,17 +53,17 @@ button.addEventListener("click", function () {
   // random answers
 
   if (randomNum == 0) {
-    answerResult = "(⌯▾ˑ̫▾⌯) My reply is NO!";
+    answerResult = "My reply is NO!";
   } else if (randomNum == 1) {
-    answerResult = "(⌯▾ˑ̫▾⌯) Don't count on it";
+    answerResult = "Don't count on it";
   } else if (randomNum == 2) {
-    answerResult = "(⌯▾ˑ̫▾⌯) My sources say no";
+    answerResult = "My sources say no";
   } else if (randomNum == 3) {
-    answerResult = "(⌯▾ˑ̫▾⌯) Very doubtful";
+    answerResult = "Very doubtful";
   } else if (randomNum == 4) {
-    answerResult = "(⌯▾ˑ̫▾⌯) Outlook not so good";
+    answerResult = "Outlook not so good";
   } else if (randomNum == 5) {
-    answerResult = "(⌯▾ˑ̫▾⌯) Better not tell you now";
+    answerResult = "Better not tell you now";
   } else if (randomNum == 6) {
     answerResult = "Cannot predict now (⌯ᵕɪᵕ⌯)zzZ";
   } else if (randomNum == 7) {
@@ -73,25 +73,25 @@ button.addEventListener("click", function () {
   } else if (randomNum == 9) {
     answerResult = "Concentrate and ask again (⌯ᵕɪᵕ⌯)zzZ";
   } else if (randomNum == 10) {
-    answerResult = "ฅ( ̳͒ᵕˑ̫ᵕ ̳͒)ฅ Outlook good";
+    answerResult = "Outlook good";
   } else if (randomNum == 11) {
-    answerResult = "ฅ( ̳͒ᵕˑ̫ᵕ ̳͒)ฅ Most likely";
+    answerResult = "Most likely";
   } else if (randomNum == 12) {
-    answerResult = "ฅ( ̳͒ᵕˑ̫ᵕ ̳͒)ฅ Signs point to YES!";
+    answerResult = "Signs point to YES!";
   } else if (randomNum == 13) {
-    answerResult = "ฅ( ̳͒ᵕˑ̫ᵕ ̳͒)ฅ As I see it, yes";
+    answerResult = "As I see it, yes";
   } else if (randomNum == 14) {
-    answerResult = "ฅ( ̳͒ᵕˑ̫ᵕ ̳͒)ฅ YES!";
+    answerResult = "YES!";
   } else if (randomNum == 15) {
-    answerResult = "ฅ( ̳͒ᵕˑ̫ᵕ ̳͒)ฅ You may rely on it";
+    answerResult = "You may rely on it";
   } else if (randomNum == 16) {
-    answerResult = "ฅ( ̳͒ᵕˑ̫ᵕ ̳͒)ฅ Without a doubt";
+    answerResult = "Without a doubt";
   } else if (randomNum == 17) {
-    answerResult = "ฅ( ̳͒ᵕˑ̫ᵕ ̳͒)ฅ Yes, definitely";
+    answerResult = "Yes, definitely";
   } else if (randomNum == 19) {
-    answerResult = "ฅ( ̳͒ᵕˑ̫ᵕ ̳͒)ฅ It is decidedly so";
+    answerResult = "It is decidedly so";
   } else {
-    answerResult = "ฅ( ̳͒ᵕˑ̫ᵕ ̳͒)ฅ It is certain";
+    answerResult = "It is certain";
   }
   //function so I can set a timer
   function answers() {

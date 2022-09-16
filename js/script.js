@@ -31,7 +31,7 @@ function darkM() {
   enterB.classList.toggle("enterDbutton");
   // on click it makes the light bulb click sound
   clickSound = new Audio("media/clickswitch.mp3");
-  clickSound.volume = 0.3;
+  clickSound.volume = 0.25;
   clickSound.play();
 }
 
@@ -53,45 +53,45 @@ button.addEventListener("click", function () {
   // random answers
 
   if (randomNum == 0) {
-    answerResult = "My reply is NO!";
+    answerResult = "(⌯▾ˑ̫▾⌯) My reply is NO!";
   } else if (randomNum == 1) {
-    answerResult = "Don't count on it";
+    answerResult = "(⌯▾ˑ̫▾⌯) Don't count on it";
   } else if (randomNum == 2) {
-    answerResult = "My sources say no";
+    answerResult = "(⌯▾ˑ̫▾⌯) My sources say no";
   } else if (randomNum == 3) {
-    answerResult = "Very doubtful";
+    answerResult = "(⌯▾ˑ̫▾⌯) Very doubtful";
   } else if (randomNum == 4) {
-    answerResult = "Outlook not so good";
+    answerResult = "(⌯▾ˑ̫▾⌯) Outlook not so good";
   } else if (randomNum == 5) {
-    answerResult = "Better not tell you now";
+    answerResult = "(⌯▾ˑ̫▾⌯) Better not tell you now";
   } else if (randomNum == 6) {
-    answerResult = "Cannot predict now";
+    answerResult = "Cannot predict now (⌯ᵕɪᵕ⌯)zzZ";
   } else if (randomNum == 7) {
-    answerResult = "Ask again later";
+    answerResult = "Ask again later (⌯ᵕɪᵕ⌯)zzZ";
   } else if (randomNum == 8) {
-    answerResult = "Reply hazy try again";
+    answerResult = "Reply hazy try again (⌯ᵕɪᵕ⌯)zzZ";
   } else if (randomNum == 9) {
-    answerResult = "Concentrate and ask again";
+    answerResult = "Concentrate and ask again (⌯ᵕɪᵕ⌯)zzZ";
   } else if (randomNum == 10) {
-    answerResult = "Outlook good";
+    answerResult = "ฅ( ̳͒ᵕˑ̫ᵕ ̳͒)ฅ Outlook good";
   } else if (randomNum == 11) {
-    answerResult = "Most likely";
+    answerResult = "ฅ( ̳͒ᵕˑ̫ᵕ ̳͒)ฅ Most likely";
   } else if (randomNum == 12) {
-    answerResult = "Signs point to YES!";
+    answerResult = "ฅ( ̳͒ᵕˑ̫ᵕ ̳͒)ฅ Signs point to YES!";
   } else if (randomNum == 13) {
-    answerResult = "As I see it, yes";
+    answerResult = "ฅ( ̳͒ᵕˑ̫ᵕ ̳͒)ฅ As I see it, yes";
   } else if (randomNum == 14) {
-    answerResult = "YES!";
+    answerResult = "ฅ( ̳͒ᵕˑ̫ᵕ ̳͒)ฅ YES!";
   } else if (randomNum == 15) {
-    answerResult = "You may rely on it";
+    answerResult = "ฅ( ̳͒ᵕˑ̫ᵕ ̳͒)ฅ You may rely on it";
   } else if (randomNum == 16) {
-    answerResult = "Without a doubt";
+    answerResult = "ฅ( ̳͒ᵕˑ̫ᵕ ̳͒)ฅ Without a doubt";
   } else if (randomNum == 17) {
-    answerResult = "Yes, definitely";
+    answerResult = "ฅ( ̳͒ᵕˑ̫ᵕ ̳͒)ฅ Yes, definitely";
   } else if (randomNum == 19) {
-    answerResult = "It is decidedly so";
+    answerResult = "ฅ( ̳͒ᵕˑ̫ᵕ ̳͒)ฅ It is decidedly so";
   } else {
-    answerResult = "It is certain";
+    answerResult = "ฅ( ̳͒ᵕˑ̫ᵕ ̳͒)ฅ It is certain";
   }
   //function so I can set a timer
   function answers() {
@@ -107,7 +107,7 @@ button.addEventListener("click", function () {
 
 function sound() {
   meow = new Audio("media/shortmeow.mp3");
-  meow.volume = 0.25;
+  meow.volume = 0.1;
   meow.play();
 }
 

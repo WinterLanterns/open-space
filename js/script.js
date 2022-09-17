@@ -120,5 +120,9 @@ let speed = 150;
 typeWriter = () => {
   document.querySelector(".questHeading").innerHTML = text[0].substring(0, i);
   if (i++ != text[0].length) setTimeout(typeWriter, speed);
+  window.addEventListener("load", typeWriter);
 };
-window.addEventListener("load", typeWriter);
+
+setTimeout(function () {
+  typeWriter();
+}, 3000);

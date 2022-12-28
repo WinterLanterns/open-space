@@ -123,6 +123,15 @@ typeWriter = () => {
   window.addEventListener("load", typeWriter);
 };
 
+const section = document.querySelector(".bgDisplay");
+
+section.style.display = "none";
+
+setTimeout(function () {
+  // Set the style of the element to visible
+  section.style.display = "block";
+}, 3000);
+
 setTimeout(function () {
   typeWriter();
 }, 3000);
